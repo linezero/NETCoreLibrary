@@ -47,7 +47,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [SignalR](https://github.com/aspnet/SignalR-Server) |  | Yes | Yes | [signalr.net](http://signalr.net/)
 [ReactJS.NET](https://github.com/reactjs/React.NET) | Install-Package React.AspNet | No | Yes | [ReactJS.NET](http://reactjs.net/)
 [Swashbuckle](https://github.com/domaindrivendev/Ahoy) | Install-Package Swashbuckle -Pre | Yes | Yes | 
-[YOYOFx](https://github.com/maxzhang1985/YOYOFx) |  | No | Yes | 
+[YOYOFx](https://github.com/maxzhang1985/YOYOFx) |  | Yes | Yes | 
 
 ## DI / IoC Containers
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
