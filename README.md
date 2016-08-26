@@ -26,8 +26,9 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [Npgsql](https://github.com/npgsql/Npgsql) | Install-Package Npgsql | Yes | Yes | [npgsql.org](http://www.npgsql.org)
 [NEST](https://github.com/elastic/elasticsearch-net) | Install-Package NEST -Pre | Yes | Yes | [elastic.**co**](https://www.elastic.co)
 [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) | Install-Package StackExchange.Redis -Pre | Yes | Yes | 
-[MySQL](https://github.com/SapientGuardian/mysql-connector-net-netstandard) | Install-Package SapientGuardian.MySql.Data -Pre | Yes | Yes | 
+MySQL | Install-Package MySql.Data.Core -Pre | Yes | Yes | 
 [NPoco](https://github.com/schotime/NPoco) | Install-Package NPoco | Yes | Yes | 
+[Chloe](https://github.com/shuxinqin/Chloe/tree/master/src/DotNetCore) |  | Yes | Yes | 
 
 ## Image
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -53,7 +54,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Autofac](https://github.com/autofac/Autofac) | Install-Package Autofac -Pre | Yes | Yes | [autofac.org](http://autofac.org/)
-[SimpleInjector](https://github.com/simpleinjector/SimpleInjector) | Install-Package SimpleInjector -Version 3.1.5 | Yes | Yes | [simpleinjector.org](https://simpleinjector.org)
+[SimpleInjector](https://github.com/simpleinjector/SimpleInjector) | Install-Package SimpleInjector | Yes | Yes | [simpleinjector.org](https://simpleinjector.org)
 [StructureMap](https://github.com/structuremap/structuremap) | Install-Package StructureMap | Yes | Yes | [structuremap.github.io](https://structuremap.github.io)
 ASP.NET Core contains built-in [DI](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html)
 
@@ -84,6 +85,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [HtmlAgilityPack](https://github.com/linezero/HtmlAgilityPack) |  | Yes | Yes | 
 [Orchard](https://github.com/OrchardCMS/Orchard2) |  |  |  | [orchardproject.net](http://orchardproject.net)
 [YesSql](https://github.com/sebastienros/yessql) |  | Yes | Yes | 
+[WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | Install-Package Senparc.Weixin.MP | Yes | Yes |
+[Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |  
 [NETCoreBBS](https://github.com/linezero/NETCoreBBS) |  |  |  |
 
 # License
