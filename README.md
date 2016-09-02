@@ -85,7 +85,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [xUnit.net](https://github.com/xunit/xunit) |  | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | 
 [Nunit](https://github.com/nunit/nunit) | Install-Package NUnit | Yes | Yes | 
-[Moq](https://github.com/moq/moq4) |  |  |  | 
+[Moq](https://github.com/moq/moq4) | Install-Package Moq -Pre | Yes | Yes | 
 
 ## Other
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -111,4 +111,5 @@ Project | Website
 # Contributing
 
 [LineZero](https://github.com/linezero)
+
 [gutun](https://github.com/gutun)
