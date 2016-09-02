@@ -35,6 +35,12 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [ImageProcessorCore](https://github.com/JimBobSquarePants/ImageProcessor/tree/Core) | Not yet ([myget](https://www.myget.org/gallery/imageprocessor)) | Yes | Yes | [imageprocessor.org](http://imageprocessor.org)
 
+## RPC
+Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
+------- | --------------------- | ----------------- | -------------------- | -------
+[JsonRpc](https://github.com/edjCase/JsonRpc) |Install-Package EdjCase.JsonRpc.Router | Yes | Yes | 
+
+
 ## Message Queuing
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
