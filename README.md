@@ -3,6 +3,7 @@
 ## Contents
  - [ORM/DBs](#ormdbs)
  - [Image](#image)
+ - [RPC](#RPC)
  - [Message Queuing](#message-queuing)
  - [Web](#web)
  - [DI / IoC Containers](#di--ioc-containers)
@@ -34,6 +35,12 @@ MySQL | Install-Package MySql.Data.Core -Pre | Yes | Yes |
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [ImageProcessorCore](https://github.com/JimBobSquarePants/ImageProcessor/tree/Core) | Not yet ([myget](https://www.myget.org/gallery/imageprocessor)) | Yes | Yes | [imageprocessor.org](http://imageprocessor.org)
+
+## RPC
+Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
+------- | --------------------- | ----------------- | -------------------- | -------
+[JsonRpc](https://github.com/edjCase/JsonRpc) |Install-Package EdjCase.JsonRpc.Router | Yes | Yes | 
+
 
 ## Message Queuing
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
