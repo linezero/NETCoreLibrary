@@ -91,6 +91,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Microphone](https://github.com/AsynkronIT/Microphone) | Install-Package Microphone.AspNet | Yes | Yes | [blog](http://blog.nethouse.se/2015/10/19/introducing-microphone-microservices-with-service-discovery-for-net/)
+[Consul](https://www.consul.io/)||||[Consul入门](http://soft.dog/2016/03/19/consul-cluster/)
 
 
 ## Other
