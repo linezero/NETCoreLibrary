@@ -11,6 +11,7 @@
  - [Serialization](#serialization)
  - [Testing](#testing)
  - [Other](#other)
+ - [Project](#project)
 
 ## ASP.NET Core and .NET Core 支持的类库
 你可以通过 issue 或者 fork 来增加ASP.NET Core and .NET Core 支持的类库。
@@ -70,6 +71,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Serilog](https://github.com/serilog/serilog) | Install-Package Serilog | Yes | Yes | 
 [NLog](https://github.com/NLog/Nlog) | Install-Package NLog.Extensions.Logging -Pre |  | Yes | 
+[log4net](https://github.com/apache/log4net) |  | Yes | Yes | 
 ASP.NET Core contains built-in [logging](https://docs.asp.net/en/latest/fundamentals/logging.html)
 
 ## Serialization
@@ -90,12 +92,23 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [AutoMapper](https://github.com/AutoMapper/AutoMapper) | Install-Package AutoMapper | Yes | Yes | [automapper.org](http://automapper.org/)
 [HtmlAgilityPack](https://github.com/linezero/HtmlAgilityPack) |  | Yes | Yes | 
-[Orchard](https://github.com/OrchardCMS/Orchard2) |  |  |  | [orchardproject.net](http://orchardproject.net)
 [YesSql](https://github.com/sebastienros/yessql) |  | Yes | Yes | 
 [WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | Install-Package Senparc.Weixin.MP | Yes | Yes |
-[Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |  
-[NETCoreBBS](https://github.com/linezero/NETCoreBBS) |  |  |  |
+[Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |
+[Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes |  
+
+## Project
+
+Project | Website
+------- | -------
+[Orchard](https://github.com/OrchardCMS/Orchard2) | [orchardproject.net](http://orchardproject.net)
+[NETCoreBBS](https://github.com/linezero/NETCoreBBS) |
 
 # License
 
-收集来自于 [LineZero](https://github.com/linezero) ,转载复制请注明来源.
+收集来自于 [NETCoreLibrary](https://github.com/linezero/NETCoreLibrary) ,转载复制请注明来源.
+
+# Contributing
+
+[LineZero](https://github.com/linezero)
+[gutun](https://github.com/gutun)
