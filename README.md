@@ -29,7 +29,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [Npgsql](https://github.com/npgsql/Npgsql) | Install-Package Npgsql | Yes | Yes | [npgsql.org](http://www.npgsql.org)
 [NEST](https://github.com/elastic/elasticsearch-net) | Install-Package NEST -Pre | Yes | Yes | [elastic.**co**](https://www.elastic.co)
 [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) | Install-Package StackExchange.Redis -Pre | Yes | Yes | 
-MySQL | Install-Package MySql.Data.Core -Pre | Yes | Yes | 
+[MySQL](https://github.com/mysql/mysql-connector-net) | Install-Package MySql.Data -Pre | Yes | Yes | 
+[MongoDB](https://github.com/mongodb/mongo-csharp-driver) | Install-Package mongocsharpdriver | Yes | Yes | 
 [NPoco](https://github.com/schotime/NPoco) | Install-Package NPoco | Yes | Yes | 
 [Chloe](https://github.com/shuxinqin/Chloe/tree/master/src/DotNetCore) |  | Yes | Yes | 
 
@@ -42,7 +43,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [JsonRpc](https://github.com/edjCase/JsonRpc) |Install-Package EdjCase.JsonRpc.Router | Yes | Yes | 
-[grpc](http://www.grpc.io) || Yes | Yes | [c#](http://www.grpc.io/docs/quickstart/csharp.html)
+[gRPC](http://www.grpc.io) |Install-Package Grpc -Pre| Yes | Yes | [c#](http://www.grpc.io/docs/quickstart/csharp.html)
 
 
 ## Message Queuing
