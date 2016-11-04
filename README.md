@@ -3,7 +3,7 @@
 ## Contents
  - [ORM/DBs](#ormdbs)
  - [Image](#image)
- - [RPC](#RPC)
+ - [RPC](#rpc)
  - [Message Queuing](#message-queuing)
  - [Web](#web)
  - [DI / IoC Containers](#di--ioc-containers)
@@ -37,7 +37,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ## Image
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[ImageProcessorCore](https://github.com/JimBobSquarePants/ImageProcessor/tree/Core) | Not yet ([myget](https://www.myget.org/gallery/imageprocessor)) | Yes | Yes | [imageprocessor.org](http://imageprocessor.org)
+[ImageSharp](https://github.com/JimBobSquarePants/ImageSharp) | Not yet ([myget](https://www.myget.org/gallery/imagesharp)) | Yes | Yes | [imageprocessor.org](http://imageprocessor.org)
 
 ## RPC
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -105,13 +105,15 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [YesSql](https://github.com/sebastienros/yessql) |  | Yes | Yes | 
 [WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | Install-Package Senparc.Weixin.MP | Yes | Yes |
 [Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |
-[Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes |  
+[Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes | 
+[IdentityServer4](https://github.com/IdentityServer/IdentityServer4) | Install-Package IdentityServer4 -Pre | Yes | Yes |   
 
 ## Project
 
 Project | Website
 ------- | -------
 [Orchard](https://github.com/OrchardCMS/Orchard2) | [orchardproject.net](http://orchardproject.net)
+[MusicStore](https://github.com/aspnet/MusicStore) |
 [NETCoreBBS](https://github.com/linezero/NETCoreBBS) |
 
 # License
