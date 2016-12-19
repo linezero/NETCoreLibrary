@@ -107,6 +107,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |
 [Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes | 
 [IdentityServer4](https://github.com/IdentityServer/IdentityServer4) | Install-Package IdentityServer4 -Pre | Yes | Yes |   
+[NPOI.Core](https://github.com/yuleyule66/Npoi.Core) | Install-Package Savorboard.Npoi.Core.OOXML | Yes | Yes |  
+[EPPlus.Core](https://github.com/VahidN/EPPlus.Core) | Install-Package EPPlus.Core | Yes | Yes |  Linux need to install libgdiplus
 
 ## Project
 
