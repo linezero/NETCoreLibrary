@@ -109,6 +109,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [IdentityServer4](https://github.com/IdentityServer/IdentityServer4) | Install-Package IdentityServer4 -Pre | Yes | Yes |   
 [NPOI.Core](https://github.com/yuleyule66/Npoi.Core) | Install-Package Savorboard.Npoi.Core.OOXML | Yes | Yes |  
 [EPPlus.Core](https://github.com/VahidN/EPPlus.Core) | Install-Package EPPlus.Core | Yes | Yes |  Linux need to install libgdiplus
+[SharpCompress](https://github.com/adamhathcock/sharpcompress)| Install-Package sharpcompress | Yes | Yes | [sharpcompress](https://github.com/adamhathcock/sharpcompress#sharpcompress)
+[SharpZipLib](#) | Install-Package SharpZipLib.NETStandard | Yes | Yes | 
 
 ## Project
 
