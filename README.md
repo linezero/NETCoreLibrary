@@ -32,7 +32,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [MySQL](https://github.com/mysql/mysql-connector-net) | Install-Package MySql.Data -Pre | Yes | Yes | 
 [MongoDB](https://github.com/mongodb/mongo-csharp-driver) | Install-Package mongocsharpdriver | Yes | Yes | 
 [NPoco](https://github.com/schotime/NPoco) | Install-Package NPoco | Yes | Yes | 
-[Chloe](https://github.com/shuxinqin/Chloe/tree/master/src/DotNetCore) |  | Yes | Yes | 
+[Chloe](https://github.com/shuxinqin/Chloe/tree/master/src/DotNetCore) |  | Yes | Yes |
+[Lolita](https://github.com/PomeloFoundation/Lolita)| Install-Package Pomelo.EntityFrameworkCore.Lolita | Yes | Yes | 
 
 ## Image
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
