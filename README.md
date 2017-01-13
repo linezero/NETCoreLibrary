@@ -112,6 +112,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [EPPlus.Core](https://github.com/VahidN/EPPlus.Core) | Install-Package EPPlus.Core | Yes | Yes |  Linux need to install libgdiplus
 [SharpCompress](https://github.com/adamhathcock/sharpcompress)| Install-Package sharpcompress | Yes | Yes | [sharpcompress](https://github.com/adamhathcock/sharpcompress#sharpcompress)
 [SharpZipLib](#) | Install-Package SharpZipLib.NETStandard | Yes | Yes | 
+[CWSharp](https://github.com/zhengchun/CWSharp) | Install-Package CWSharp | Yes | Yes | .NET跨平台中英文分词
 
 ## Project
 
