@@ -27,8 +27,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [Dapper](https://github.com/StackExchange/dapper-dot-net) | Install-Package Dapper | Yes | Yes | [github.io](https://stackexchange.github.io/dapper-dot-net)
 [EF Core](https://github.com/aspnet/EntityFramework) | Install-Package EntityFramework.MicrosoftSqlServer | Yes | Yes | [efproject.net](http://docs.efproject.net/en/latest/)
 [Npgsql](https://github.com/npgsql/Npgsql) | Install-Package Npgsql | Yes | Yes | [npgsql.org](http://www.npgsql.org)
-[NEST](https://github.com/elastic/elasticsearch-net) | Install-Package NEST -Pre | Yes | Yes | [elastic.**co**](https://www.elastic.co)
-[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) | Install-Package StackExchange.Redis -Pre | Yes | Yes | 
+[NEST](https://github.com/elastic/elasticsearch-net) | Install-Package NEST | Yes | Yes | [elastic.**co**](https://www.elastic.co)
+[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) | Install-Package StackExchange.Redis | Yes | Yes | 
 [MySQL](https://github.com/mysql/mysql-connector-net) | Install-Package MySql.Data -Pre | Yes | Yes | 
 [MongoDB](https://github.com/mongodb/mongo-csharp-driver) | Install-Package mongocsharpdriver | Yes | Yes | 
 [NPoco](https://github.com/schotime/NPoco) | Install-Package NPoco | Yes | Yes | 
@@ -44,7 +44,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [JsonRpc](https://github.com/edjCase/JsonRpc) |Install-Package EdjCase.JsonRpc.Router | Yes | Yes | 
-[gRPC](http://www.grpc.io) |Install-Package Grpc -Pre| Yes | Yes | [c#](http://www.grpc.io/docs/quickstart/csharp.html)
+[gRPC](http://www.grpc.io) |Install-Package Grpc | Yes | Yes | [c#](http://www.grpc.io/docs/quickstart/csharp.html)
 
 
 ## Message Queuing
@@ -52,6 +52,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [RestBus](https://github.com/tenor/RestBus) | Install-Package RestBus.AspNet -Pre ([guide](https://github.com/tenor/RestBus/wiki/ASP.NET-Core-service-%28RabbitMQ-callable%29)) | Yes | Yes | [restbus.org](http://restbus.org) ([Blog](http://ahuwanya.net/blog/post/Introducing-RestBus))
 [RdKafka](https://github.com/ah-/rdkafka-dotnet) | Install-Package RdKafka | Yes | Yes | [ah-.github.io/rdkafka-dotnet](http://ah-.github.io/rdkafka-dotnet/)
+[NetMQ](https://github.com/zeromq/netmq) | Install-Package NetMQ | Yes | Yes | 
+[RabbitMQ](https://github.com/rabbitmq/rabbitmq-dotnet-client) | Install-Package RabbitMQ.Client -Pre | Yes | Yes | [www.rabbitmq.com](http://www.rabbitmq.com/dotnet.html)
 
 ## Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -65,7 +67,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ## DI / IoC Containers
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[Autofac](https://github.com/autofac/Autofac) | Install-Package Autofac -Pre | Yes | Yes | [autofac.org](http://autofac.org/)
+[Autofac](https://github.com/autofac/Autofac) | Install-Package Autofac | Yes | Yes | [autofac.org](http://autofac.org/)
 [SimpleInjector](https://github.com/simpleinjector/SimpleInjector) | Install-Package SimpleInjector | Yes | Yes | [simpleinjector.org](https://simpleinjector.org)
 [StructureMap](https://github.com/structuremap/structuremap) | Install-Package StructureMap | Yes | Yes | [structuremap.github.io](https://structuremap.github.io)
 ASP.NET Core contains built-in [DI](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html)
@@ -75,7 +77,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Serilog](https://github.com/serilog/serilog) | Install-Package Serilog | Yes | Yes | 
 [NLog](https://github.com/NLog/Nlog) | Install-Package NLog.Extensions.Logging -Pre |  | Yes | 
-[log4net](https://github.com/apache/log4net) |  | Yes | Yes | 
+[log4net](https://github.com/apache/log4net) | Install-Package log4net | Yes | Yes | 
+[Common.Logging](https://github.com/net-commons/common-logging) | Install-Package Common.Logging -Pre | Yes | Yes | 
 ASP.NET Core contains built-in [logging](https://docs.asp.net/en/latest/fundamentals/logging.html)
 
 ## Serialization
@@ -107,7 +110,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | Install-Package Senparc.Weixin.MP | Yes | Yes |
 [Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |
 [Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes | 
-[IdentityServer4](https://github.com/IdentityServer/IdentityServer4) | Install-Package IdentityServer4 -Pre | Yes | Yes |   
+[IdentityServer4](https://github.com/IdentityServer/IdentityServer4) | Install-Package IdentityServer4 | Yes | Yes |   
 [NPOI.Core](https://github.com/yuleyule66/Npoi.Core) | Install-Package Savorboard.Npoi.Core.OOXML | Yes | Yes |  
 [EPPlus.Core](https://github.com/VahidN/EPPlus.Core) | Install-Package EPPlus.Core | Yes | Yes |  Linux need to install libgdiplus
 [SharpCompress](https://github.com/adamhathcock/sharpcompress)| Install-Package sharpcompress | Yes | Yes | [sharpcompress](https://github.com/adamhathcock/sharpcompress#sharpcompress)
@@ -121,6 +124,7 @@ Project | Website
 [Orchard](https://github.com/OrchardCMS/Orchard2) | [orchardproject.net](http://orchardproject.net)
 [MusicStore](https://github.com/aspnet/MusicStore) |
 [NETCoreBBS](https://github.com/linezero/NETCoreBBS) |
+[SimplCommerce](https://github.com/simplcommerce/SimplCommerce)|[demo](http://demo.simplcommerce.com)
 
 # License
 
