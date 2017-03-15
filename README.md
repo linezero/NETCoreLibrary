@@ -34,6 +34,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [NPoco](https://github.com/schotime/NPoco) | Install-Package NPoco | Yes | Yes | 
 [Chloe](https://github.com/shuxinqin/Chloe/tree/master/src/DotNetCore) |  | Yes | Yes |
 [Lolita](https://github.com/PomeloFoundation/Lolita)| Install-Package Pomelo.EntityFrameworkCore.Lolita | Yes | Yes | 
+[YesSql](https://github.com/sebastienros/yessql) | Install-Package YesSql.Storage.Sql -Pre | Yes | Yes | 
 
 ## Image
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -50,8 +51,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ## Message Queuing
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[RestBus](https://github.com/tenor/RestBus) | Install-Package RestBus.AspNet -Pre ([guide](https://github.com/tenor/RestBus/wiki/ASP.NET-Core-service-%28RabbitMQ-callable%29)) | Yes | Yes | [restbus.org](http://restbus.org) ([Blog](http://ahuwanya.net/blog/post/Introducing-RestBus))
-[RdKafka](https://github.com/ah-/rdkafka-dotnet) | Install-Package RdKafka | Yes | Yes | [ah-.github.io/rdkafka-dotnet](http://ah-.github.io/rdkafka-dotnet/)
+[Confluent.Kafka](https://github.com/confluentinc/confluent-kafka-dotnet) | Install-Package Confluent.Kafka | Yes | Yes | 
 [NetMQ](https://github.com/zeromq/netmq) | Install-Package NetMQ | Yes | Yes | 
 [RabbitMQ](https://github.com/rabbitmq/rabbitmq-dotnet-client) | Install-Package RabbitMQ.Client -Pre | Yes | Yes | [www.rabbitmq.com](http://www.rabbitmq.com/dotnet.html)
 
@@ -59,7 +59,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Nancy](https://github.com/NancyFx/Nancy) | Install-Package Nancy -Pre | Yes | Yes | [nancyfx.org](http://nancyfx.org)
-[SignalR](https://github.com/aspnet/SignalR-Server) |  | Yes | Yes | [signalr.net](http://signalr.net/)
+[SignalR](https://github.com/aspnet/signalr) |  | Yes | Yes | [signalr.net](http://signalr.net/)
 [ReactJS.NET](https://github.com/reactjs/React.NET) | Install-Package React.AspNet | No | Yes | [ReactJS.NET](http://reactjs.net/)
 [Swashbuckle](https://github.com/domaindrivendev/Ahoy) | Install-Package Swashbuckle -Pre | Yes | Yes | 
 [YOYOFx](https://github.com/maxzhang1985/YOYOFx) |  | Yes | Yes | 
@@ -70,7 +70,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [Autofac](https://github.com/autofac/Autofac) | Install-Package Autofac | Yes | Yes | [autofac.org](http://autofac.org/)
 [SimpleInjector](https://github.com/simpleinjector/SimpleInjector) | Install-Package SimpleInjector | Yes | Yes | [simpleinjector.org](https://simpleinjector.org)
 [StructureMap](https://github.com/structuremap/structuremap) | Install-Package StructureMap | Yes | Yes | [structuremap.github.io](https://structuremap.github.io)
-ASP.NET Core contains built-in [DI](https://docs.asp.net/en/latest/fundamentals/dependency-injection.html)
+
+ASP.NET Core contains built-in [DI](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 
 ## Logging
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -79,7 +80,8 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [NLog](https://github.com/NLog/Nlog) | Install-Package NLog.Extensions.Logging -Pre |  | Yes | 
 [log4net](https://github.com/apache/log4net) | Install-Package log4net | Yes | Yes | 
 [Common.Logging](https://github.com/net-commons/common-logging) | Install-Package Common.Logging -Pre | Yes | Yes | 
-ASP.NET Core contains built-in [logging](https://docs.asp.net/en/latest/fundamentals/logging.html)
+
+ASP.NET Core contains built-in [logging](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging)
 
 ## Serialization
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
@@ -107,7 +109,6 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [AutoMapper](https://github.com/AutoMapper/AutoMapper) | Install-Package AutoMapper | Yes | Yes | [automapper.org](http://automapper.org/)
 [HtmlAgilityPack](https://github.com/linezero/HtmlAgilityPack) |  | Yes | Yes | 
-[YesSql](https://github.com/sebastienros/yessql) |  | Yes | Yes | 
 [WeiXinMPSDK](https://github.com/JeffreySu/WeiXinMPSDK) | Install-Package Senparc.Weixin.MP | Yes | Yes |
 [Hangfire](https://github.com/HangfireIO/Hangfire) | Install-Package HangFire | Yes | Yes |
 [Quartz.NET](https://github.com/quartznet/quartznet) | Install-Package Quartz -Pre | Yes | Yes | 
