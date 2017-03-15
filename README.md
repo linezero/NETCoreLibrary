@@ -99,6 +99,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Microphone](https://github.com/AsynkronIT/Microphone) | Install-Package Microphone.AspNet | Yes | Yes | [blog](http://blog.nethouse.se/2015/10/19/introducing-microphone-microservices-with-service-discovery-for-net/)
 [Consul](https://www.consul.io/)||||[Consul入门](http://soft.dog/2016/03/19/consul-cluster/)
+[Ocelot](https://github.com/TomPallister/Ocelot)| Install-Package Ocelot | Yes | Yes | [wiki](https://github.com/TomPallister/Ocelot/wiki)
 
 
 ## Other
@@ -116,6 +117,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [SharpCompress](https://github.com/adamhathcock/sharpcompress)| Install-Package sharpcompress | Yes | Yes | [sharpcompress](https://github.com/adamhathcock/sharpcompress#sharpcompress)
 [SharpZipLib](#) | Install-Package SharpZipLib.NETStandard | Yes | Yes | 
 [CWSharp](https://github.com/zhengchun/CWSharp) | Install-Package CWSharp | Yes | Yes | .NET跨平台中英文分词
+[MailKit](https://github.com/jstedfast/MailKit) | Install-Package MailKit | Yes | Yes |
 
 ## Project
 
@@ -125,6 +127,7 @@ Project | Website
 [MusicStore](https://github.com/aspnet/MusicStore) |
 [NETCoreBBS](https://github.com/linezero/NETCoreBBS) |
 [SimplCommerce](https://github.com/simplcommerce/SimplCommerce)|[demo](http://demo.simplcommerce.com)
+[eShopOnContainers](https://github.com/dotnet/eShopOnContainers)|
 
 # License
 
