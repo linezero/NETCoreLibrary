@@ -119,6 +119,9 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 [SharpZipLib](#) | Install-Package SharpZipLib.NETStandard | Yes | Yes | 
 [CWSharp](https://github.com/zhengchun/CWSharp) | Install-Package CWSharp | Yes | Yes | .NET跨平台中英文分词
 [MailKit](https://github.com/jstedfast/MailKit) | Install-Package MailKit | Yes | Yes |
+[jieba.NET](https://github.com/linezero/jieba.NET) | | Yes | Yes | jieba中文分词.NET Core版
+[jose-jwt](https://github.com/dvsekhvalnov/jose-jwt) | Install-Package jose-jwt | Yes | Yes | 
+[IdentityModel.Tokens.Jwt](https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet) | Install-Package System.IdentityModel.Tokens.Jwt | Yes | Yes | 
 
 ## Project
 
