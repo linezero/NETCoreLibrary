@@ -92,7 +92,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ## Testing
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[xUnit.net](https://github.com/xunit/xunit) |  | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | 
+[xUnit.net](https://github.com/xunit/xunit) | Install-Package xunit | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | [Yes](http://xunit.github.io/docs/getting-started-dotnet-core.html) | 
 [Nunit](https://github.com/nunit/nunit) | Install-Package NUnit | Yes | Yes | 
 [Moq](https://github.com/moq/moq4) | Install-Package Moq -Pre | Yes | Yes | 
 
@@ -100,7 +100,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
 [Microphone](https://github.com/AsynkronIT/Microphone) | Install-Package Microphone.AspNet | Yes | Yes | [blog](http://blog.nethouse.se/2015/10/19/introducing-microphone-microservices-with-service-discovery-for-net/)
-[Consul](https://www.consul.io/)||||[Consul入门](http://soft.dog/2016/03/19/consul-cluster/)
+[Consul](https://github.com/PlayFab/consuldotnet)|Install-Package Consul| Yes | Yes |[Consul入门](http://soft.dog/2016/03/19/consul-cluster/)
 [Ocelot](https://github.com/TomPallister/Ocelot)| Install-Package Ocelot | Yes | Yes | [wiki](https://github.com/TomPallister/Ocelot/wiki)
 
 
