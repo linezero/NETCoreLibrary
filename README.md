@@ -39,7 +39,7 @@ Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Web
 ## Image
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
 ------- | --------------------- | ----------------- | -------------------- | -------
-[ImageSharp](https://github.com/JimBobSquarePants/ImageSharp) | Install-Package SixLabors.ImageSharp | Yes | Yes | [ImageSharp](https://sixlabors.github.io/docs/articles/ImageSharp/GettingStarted.htmlg)
+[ImageSharp](https://github.com/JimBobSquarePants/ImageSharp) | Install-Package SixLabors.ImageSharp | Yes | Yes | [ImageSharp](https://sixlabors.github.io/docs/articles/ImageSharp/GettingStarted.html)
 
 ## RPC
 Project | NuGet Install Command | .NET Core Support | ASP.NET Core Support | Website
